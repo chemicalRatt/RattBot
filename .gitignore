@@ -338,6 +338,6 @@ ASALocalRun/
 .localhistory/
 
 # Properties folder for VS project
-.Properties/
+/RattBot/Properties/
 
 
