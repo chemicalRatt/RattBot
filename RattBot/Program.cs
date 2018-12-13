@@ -1,13 +1,19 @@
 ﻿using System;
-using System.Threading.Tasks;
+using RattBot.Discord;
+using RattBot.Discord.Entities;
 
 namespace RattBot
 {
     internal class Program
     {
-        private static async Task Main()
+        private static void Main()
         {
-            Unity.RegisterTypes();   
+            Unity.RegisterTypes();
+            var botConfig = new BotConfig
+            {
+                Token = "ABC",
+                SocketConfig = SocketConfig.GetDefault()
+            };
         }
     }       
 }
