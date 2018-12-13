@@ -1,12 +1,18 @@
 ﻿using System;
 
+
+
 namespace RattBot
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
-            Console.WriteLine("Test.");
+            Unity.RegisterTypes();
+            
+            
         }
     }
+
+    
 }
