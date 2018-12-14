@@ -342,3 +342,6 @@ ASALocalRun/
 
 #Application Directory
 Config/
+
+#VSCode
+.vscode/
