@@ -11,6 +11,7 @@ namespace RattBot
         private static async Task Main()
         {
             Console.WriteLine("Hello world");
+            
 
             Unity.RegisterTypes();
             var storage = Unity.Resolve<IDataStorage>();
