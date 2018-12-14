@@ -1,4 +1,4 @@
-﻿namespace RattBot.Storage
+﻿namespace RattBot.storage
 {
     public interface IDataStorage
     {

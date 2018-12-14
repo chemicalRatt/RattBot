@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace RattBot.Storage.Implementations
+namespace RattBot.storage.Implementations
 {
     public class InMemoryStorage : IDataStorage
     {        

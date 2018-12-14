@@ -340,4 +340,5 @@ ASALocalRun/
 # Properties folder for VS project
 /RattBot/Properties/
 
-
+#Application Directory
+Config/
